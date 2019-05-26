@@ -129,11 +129,17 @@ a{
   padding-bottom:10px;
 }
 
-#image-portfolio{
-  /* float:left;
-  margin:25px; */
-  transition:.5s ease;
-  backface-visibility: hidden
+.image-group{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+
+}
+@media only screen and (max-width: 1000px){
+  .image-group{
+    display:flex;
+    flex-direction:column;
+  }
 }
 .portfolio-text{
   font-size:28px;
@@ -142,7 +148,8 @@ a{
   padding:10px;
 }
 
-#image-portfolio:hover{
+
+.image-portfolio:hover{
   opacity: 0.3;
 }
 .img-text{
