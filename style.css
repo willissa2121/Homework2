@@ -141,11 +141,15 @@ a{
     flex-direction:column;
   }
 }
+
 .portfolio-text{
   font-size:28px;
   font-weight:600;
   margin:10px;
   padding:10px;
+}
+.image-text:hover{
+  color:green;
 }
 
 
