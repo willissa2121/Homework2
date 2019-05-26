@@ -84,6 +84,7 @@ a{
   padding: 50px;
   margin-top:10px;
   margin-bottom:15px;
+ 
 
   width: 90%;
 }
@@ -114,6 +115,7 @@ a{
   /* float:left; */
   margin-top:5px;
   margin-right:5px;
+  max-width:100%;
   
 }
 .header-border{
@@ -197,4 +199,9 @@ textarea{
 
 .body-background{
   background-image:url(memphis-mini.png);
+}
+
+.row-color{
+  background:#F8F8FF;
+  width:100%;
 }
