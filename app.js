@@ -1,37 +1,51 @@
 // alert()
 
 let openMenu = () => {
-  document.getElementById("sidebar-links").style.width="250px"
-  document.getElementById("main").style.marginLeft="250px"
-  
+
+  if (window.innerWidth < 700) {
+    console.log("wowza")
+    document.getElementById("sidebar-links").style.width = "100%"
+    // document.getElementById("main-content").style.display = "none"
+
+  }
+  else{
+
+  document.getElementById("sidebar-links").style.width = "250px"
+  document.getElementById("main").style.marginLeft = "250px"
+  }
+
+
+
+
 
 
 }
 
 let closeMenu = () => {
-document.getElementById("sidebar-links").style.width="0"
-document.getElementById("main").style.marginLeft="0"
+  document.getElementById("sidebar-links").style.width = "0"
+  document.getElementById("main").style.marginLeft = "0"
+  document.getElementById("main-content").style.display = "block"
 }
 
 let openContent = (id, btnId) => {
   let tabcontent = document.getElementsByClassName("tabcontent");
-  for (var i = 0; i < tabcontent.length; i++){
-    tabcontent[i].style.display="none"
+  for (var i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none"
   }
 
   let tablinks = document.getElementsByClassName("tablink");
-  for (var i = 0; i < tablinks.length; i++){
+  for (var i = 0; i < tablinks.length; i++) {
     console.log("working")
-    tablinks[i].style.backgroundColor=""
-    tablinks[i].style.color=''
-    
-    
+    tablinks[i].style.backgroundColor = ""
+    tablinks[i].style.color = ''
+
+
   }
-  
-  document.getElementById(id).style.display="block";
+
+  document.getElementById(id).style.display = "block";
   //This works, but the buttons will not unturn chosen color
-  document.getElementById(btnId).style.backgroundColor="teal"
-  document.getElementById(btnId).style.color="white"
+  document.getElementById(btnId).style.backgroundColor = "teal"
+  document.getElementById(btnId).style.color = "white"
 
 
 
