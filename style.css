@@ -80,7 +80,7 @@ a{
 
 .container-fluid{
   text-align: center;
-  background:url(Icons/background-2.jpg);
+  background:url(Img/background-2.jpg);
   padding: 50px;
   margin-top:10px;
   margin-bottom:15px;
@@ -119,7 +119,7 @@ a{
   
 }
 .header-border{
-  border: 1px solid grey;
+  border: 1px solid wheat;
   width:98%;
   margin: auto;
   margin-top: 5%;
@@ -229,5 +229,5 @@ textarea{
 }
 
 @media only screen and (max-width:800px){
-  .tablink{font-size:15px}
+  .tablink{font-size:13px}
 }

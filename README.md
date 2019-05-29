@@ -1,1 +1,3 @@
 # Homework1
+
+For this homework assignment, not too much instruction is needed. A simple hamburger menu can be used to navigate through the 4 HTML files. Instead of re-formatting the page to look different at a smaller pixel count, I changed the hamburger menu display width and interaction with the container. At a certain screen width, the hamburger menu no longer pushes other content, and instead covers the entire screen without altering any other formatting. The icons at the bottom are all functional hyperlinks, and all of my portfolio project images will re-direct you to the about.me page, since it is my only project.
